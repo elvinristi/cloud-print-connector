@@ -12,7 +12,7 @@ import (
 	"reflect"
 	"regexp"
 
-	"github.com/google/cloud-print-connector/cdd"
+	"github.com/elvinristi/cloud-print-connector/cdd"
 )
 
 type PrinterState uint8

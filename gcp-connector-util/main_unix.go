@@ -12,7 +12,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/google/cloud-print-connector/lib"
+	"github.com/elvinristi/cloud-print-connector/lib"
 	"github.com/urfave/cli"
 )
 

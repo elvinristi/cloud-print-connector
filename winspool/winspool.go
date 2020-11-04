@@ -16,9 +16,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/google/cloud-print-connector/cdd"
-	"github.com/google/cloud-print-connector/lib"
-	"github.com/google/cloud-print-connector/log"
+	"github.com/elvinristi/cloud-print-connector/cdd"
+	"github.com/elvinristi/cloud-print-connector/lib"
+	"github.com/elvinristi/cloud-print-connector/log"
 	"golang.org/x/sys/windows"
 )
 

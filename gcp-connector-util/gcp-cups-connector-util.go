@@ -16,9 +16,9 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/google/cloud-print-connector/cdd"
-	"github.com/google/cloud-print-connector/gcp"
-	"github.com/google/cloud-print-connector/lib"
+	"github.com/elvinristi/cloud-print-connector/cdd"
+	"github.com/elvinristi/cloud-print-connector/gcp"
+	"github.com/elvinristi/cloud-print-connector/lib"
 	"github.com/urfave/cli"
 )
 

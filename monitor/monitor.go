@@ -12,12 +12,12 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/google/cloud-print-connector/cups"
-	"github.com/google/cloud-print-connector/gcp"
-	"github.com/google/cloud-print-connector/lib"
-	"github.com/google/cloud-print-connector/log"
-	"github.com/google/cloud-print-connector/manager"
-	"github.com/google/cloud-print-connector/privet"
+	"github.com/elvinristi/cloud-print-connector/cups"
+	"github.com/elvinristi/cloud-print-connector/gcp"
+	"github.com/elvinristi/cloud-print-connector/lib"
+	"github.com/elvinristi/cloud-print-connector/log"
+	"github.com/elvinristi/cloud-print-connector/manager"
+	"github.com/elvinristi/cloud-print-connector/privet"
 )
 
 const monitorFormat = `cups-printers=%d

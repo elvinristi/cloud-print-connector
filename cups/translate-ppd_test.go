@@ -13,8 +13,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/google/cloud-print-connector/cdd"
-	"github.com/google/cloud-print-connector/lib"
+	"github.com/elvinristi/cloud-print-connector/cdd"
+	"github.com/elvinristi/cloud-print-connector/lib"
 )
 
 type testdata struct {

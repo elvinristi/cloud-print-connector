@@ -15,8 +15,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/google/cloud-print-connector/cdd"
-	"github.com/google/cloud-print-connector/log"
+	"github.com/elvinristi/cloud-print-connector/cdd"
+	"github.com/elvinristi/cloud-print-connector/log"
 )
 
 // translateAttrs extracts a PrinterDescriptionSection, PrinterStateSection, name, default diplay name, UUID, and tags from maps of tags (CUPS attributes)

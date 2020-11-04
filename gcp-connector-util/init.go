@@ -20,8 +20,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/google/cloud-print-connector/gcp"
-	"github.com/google/cloud-print-connector/lib"
+	"github.com/elvinristi/cloud-print-connector/gcp"
+	"github.com/elvinristi/cloud-print-connector/lib"
 	"github.com/google/uuid"
 	"github.com/urfave/cli"
 
