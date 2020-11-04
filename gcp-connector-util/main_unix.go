@@ -58,29 +58,26 @@ var unixInitFlags = []cli.Flag{
 	&cli.BoolFlag{
 		Name:  "cups-ignore-raw-printers",
 		Usage: "Whether to ignore CUPS raw printers",
-		DefaultText: "1",
 	},
 	&cli.BoolFlag{
 		Name:  "cups-ignore-class-printers",
 		Usage: "Whether to ignore CUPS class printers",
-		DefaultText: "1",
 	},
 	&cli.BoolFlag{
 		Name:  "copy-printer-info-to-display-name",
 		Usage: "Whether to copy the CUPS printer's printer-info attribute to the GCP printer's defaultDisplayName",
-		DefaultText: "1",
 	},
 }
 
-var unixCommands = []*cli.Command{
-	&cli.Command{
+var unixCommands = []cli.Command{
+	cli.Command{
 		Name:      "init",
 		Aliases:   []string{"i"},
 		Usage:     "Creates a config file",
 		Action:    initConfigFile,
 		Flags:     append(commonInitFlags, unixInitFlags...),
 	},
-	&cli.Command{
+	cli.Command{
 		Name:      "monitor",
 		Aliases: []string{"m"},
 		Usage:     "Read stats from a running connector",
